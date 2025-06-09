@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_AdityaJ1222_hello_world_app_1749475318538-push-trigger-input-set
+  identifier: Build_AdityaJ1222_hello_world_app_1749475318538pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_AdityaJ1222_hello_world_app_1749475318538
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
