@@ -60,7 +60,7 @@ pipeline:
                       name: dind
                       identifier: dind
                       spec:
-                        connectorRef: account.harnessImage
+                        connectorRef: dockerrepoconnector
                         image: docker:dind
                         shell: Sh
                   - step:
