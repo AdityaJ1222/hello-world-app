@@ -28,6 +28,7 @@ pipeline:
                     repo: adityaa12/harness-hello-world
                     tags:
                       - v1
+                    dockerfile: hello-world/dockerfile
           platform:
             os: Linux
             arch: Amd64
