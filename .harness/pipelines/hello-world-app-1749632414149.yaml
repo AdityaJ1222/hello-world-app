@@ -27,7 +27,7 @@ pipeline:
                     connectorRef: dockerrepoconnector
                     repo: adityaa12/harness-hello-world
                     tags:
-                      - v1
+                      - v2
                     dockerfile: ./dockerfile
           platform:
             os: Linux
